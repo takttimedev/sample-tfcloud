@@ -10,4 +10,4 @@ ec2_instance = {
     instance_type="t2.micro"
 }
 
-ec2_iam_instance_role="ansiblerole-pipeline"
+ec2_iam_instance_role="ansiblerole"
