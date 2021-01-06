@@ -13,7 +13,7 @@ terraform {
 
 resource "aws_instance" "ec2" {
 
-  ami = "ami-04b1ddd35fd71475a"
+  ami = "ami-01720b5f421cf0179"
 
   instance_type               = var.ec2_instance.instance_type
   iam_instance_profile        = var.ec2_iam_instance_role
